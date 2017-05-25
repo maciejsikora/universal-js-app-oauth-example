@@ -1,5 +1,5 @@
 # universal-js-app-oauth-example
-Example Universal Application Connected to Rest API and Oauth third party
+Example Universal Application Connected to Rest API and Oauth third party. Orginally connected to **SalesForce Rest API**.
 
 ## 1. Install the app
 In root app directory call: 
