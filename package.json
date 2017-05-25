@@ -1,0 +1,41 @@
+{
+  "name": "universal-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fat-server": "nodemon server/fat.server.js --exec babel-node webpack --presets stage-0,react,es2015",
+    "thin-server": "nodemon server/thin.server.js --exec babel-node webpack --presets stage-0,react,es2015",
+    "api-server": "nodemon server/api.server.js --exec babel-node webpack --presets stage-0,react,es2015",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "material-ui": "^0.18.1",
+    "nodemon": "^1.11.0",
+    "query-string": "^4.3.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "request": "^2.81.0",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.0"
+  }
+}
